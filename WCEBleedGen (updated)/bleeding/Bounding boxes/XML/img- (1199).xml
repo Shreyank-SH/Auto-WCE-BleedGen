@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>XML</folder>
+  <filename>img- (1199).png</filename>
+  <path>D:\WCE\dataset final\everythingYOLO\img- (1199).png</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>224</width>
+    <height>224</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>bleeding</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>136</xmin>
+      <ymin>6</ymin>
+      <xmax>203</xmax>
+      <ymax>40</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>bleeding</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>89</xmin>
+      <ymin>10</ymin>
+      <xmax>113</xmax>
+      <ymax>41</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>bleeding</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>195</xmin>
+      <ymin>42</ymin>
+      <xmax>219</xmax>
+      <ymax>106</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>bleeding</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>146</xmin>
+      <ymin>59</ymin>
+      <xmax>171</xmax>
+      <ymax>74</ymax>
+    </bndbox>
+  </object>
+</annotation>
