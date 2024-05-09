@@ -18,8 +18,8 @@ This project aims to develop a system for detecting and localizing bleeding regi
 
 The dataset used in this project is the `WCEBleedGen_dataset`, which contains two folders:
 
-- `bleeding`: This folder contains all the bleeding images and their corresponding `.txt` files.
-- `val`: This folder contains all the validation images and their corresponding `.txt` files.
+- `bleeding`: This folder contains all the bleeding images and their corresponding annotations and bounding box files.
+- `non bleeding`: This folder contains all the non bleeding images.
 
 The dataset is defined in the `data.yaml` file, which specifies the paths to the training and validation datasets, as well as the class names.
 
@@ -42,6 +42,14 @@ The trained model is tested on an unseen dataset (`Test Dataset 2`). The images 
 ## Detection Task
 
 The detection task involves training a model to localize and detect bleeding regions in WCE images.
+## Dataset
+
+The dataset used in this project is the `WCEBleedGen_dataset`, which contains two folders:
+
+- `bleeding`: This folder contains all the bleeding images and their corresponding `.txt` files.
+- `val`: This folder contains all the validation images and their corresponding `.txt` files.
+
+The dataset is defined in the `data.yaml` file, which specifies the paths to the training and validation datasets, as well as the class names.
 
 ### Model Training
 
