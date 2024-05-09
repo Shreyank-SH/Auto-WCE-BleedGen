@@ -21,8 +21,6 @@ The dataset used in this project is the `WCEBleedGen_dataset`, which contains tw
 - `bleeding`: This folder contains all the bleeding images and their corresponding annotations and bounding box files.
 - `non bleeding`: This folder contains all the non bleeding images.
 
-The dataset is defined in the `data.yaml` file, which specifies the paths to the training and validation datasets, as well as the class names.
-
 ## Classification Task
 
 The classification task involves training a model to classify WCE images as either "bleeding" or "non-bleeding".
