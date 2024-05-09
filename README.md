@@ -74,8 +74,8 @@ This project was developed as part of the Image and Machine Learning course at R
 
 We would like to acknowledge the following resources:
 
-- [YOLOv8 Documentation](https://docs.ultralytics.com/modes/predict/#inference-arguments) for inference arguments
-- [YOLOv8 Training Notebook](https://github.com/Shivam-027/Auto-WCEBleedGen-Challenge/blob/main/MODEL/Training_YOLOv8.ipynb)
+- [YOLOv8 Documentation](https://docs.ultralytics.com/modes/predict/#inference-arguments) Yolov8 Documentation
+- [YOLOv8 Training Notebook](https://github.com/Shivam-027/Auto-WCEBleedGen-Challenge/blob/main/MODEL/Training_YOLOv8.ipynb) Yolov8 code samples
 - [Training Dataset](https://zenodo.org/records/10156571)
 - [Testing Dataset](https://zenodo.org/records/10124589)
 - [MISAHub Challenge](https://misahub.in/CVIP/challenge.html)
