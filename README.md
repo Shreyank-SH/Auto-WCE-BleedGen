@@ -14,6 +14,8 @@ This project aims to develop a system for detecting and localizing bleeding regi
  - [Model Validation](#model-validation)
  - [Model Prediction](#model-prediction)
 
+##(Note: Make changes to paths wherever necessary)
+
 ## Dataset
 
 The dataset used in this project is the `WCEBleedGen_dataset`, which contains two folders:
@@ -36,6 +38,9 @@ After tuning the hyperparameters, the ResNet50 model is trained on the complete 
 ### Testing the Classification Model
 
 The trained model is tested on an unseen dataset (`Test Dataset 2`). The images are classified as "Bleeding" or "Non-Bleeding", and the predictions are stored in separate folders (`Predicted_Bleeding_Images` and `Predicted_Non_Bleeding_Images`).
+
+Results of Classification:
+
 
 ## Detection Task
 
