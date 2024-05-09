@@ -68,6 +68,8 @@ The trained model is used to predict and localize bleeding regions in the previo
 
 The notebook also includes code snippets for displaying sample predicted images.
 
+## Results of Detection:
+
 ## Usage
 
 To run the code, follow these steps:
@@ -81,12 +83,12 @@ Note: The notebook assumes that you have a GPU available for training and infere
 
 ## Acknowledgments
 
-This project was developed as part of the Image and Machine Learning course at RV University.
+This project was developed as part of the Machine Learning course at RV University.
 
 We would like to acknowledge the following resources:
 
 - [YOLOv8 Documentation](https://docs.ultralytics.com/modes/predict/#inference-arguments) Yolov8 Documentation
-- [YOLOv8 Training Notebook](https://github.com/Shivam-027/Auto-WCEBleedGen-Challenge/blob/main/MODEL/Training_YOLOv8.ipynb) Yolov8 code samples
+- [YOLOv8 Training Notebook](https://github.com/Shivam-027/Auto-WCEBleedGen-Challenge/blob/main/MODEL/Training_YOLOv8.ipynb) Yolov8 code snippets
 - [Training Dataset](https://zenodo.org/records/10156571)
 - [Testing Dataset](https://zenodo.org/records/10124589)
 - [MISAHub Challenge](https://misahub.in/CVIP/challenge.html)
