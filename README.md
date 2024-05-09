@@ -1,4 +1,4 @@
-# Bleeding Detection and Localization in Wireless Capsule Endoscopy Images
+# Classifcation of Bleeding and Non-Bleeding frames and further Detection of the Bleeding Region
 
 This project aims to develop a system for detecting and localizing bleeding regions in wireless capsule endoscopy (WCE) images. The system consists of two main tasks: classification and detection.
 
@@ -6,13 +6,16 @@ This project aims to develop a system for detecting and localizing bleeding regi
 
 - [Dataset](#dataset)
 - [Classification Task](#classification-task)
- - [Hyperparameter Tuning](#hyperparameter-tuning)
- - [Training the Classification Model](#training-the-classification-model)
- - [Testing the Classification Model](#testing-the-classification-model)
+  - [Hyperparameter Tuning](#hyperparameter-tuning)
+  - [Training the Classification Model](#training-the-classification-model)
+  - [Testing the Classification Model](#testing-the-classification-model)
+  - [Results of Classification](#results-of-classification)
+
 - [Detection Task](#detection-task)
- - [Model Training](#model-training)
- - [Model Validation](#model-validation)
- - [Model Prediction](#model-prediction)
+  - [Model Training](#model-training)
+  - [Model Validation](#model-validation)
+  - [Model Prediction](#model-prediction)
+  - [Results of Detection](#results-of-detection)
 
 ## (Note: Make changes to paths wherever necessary)
 
@@ -21,7 +24,7 @@ This project aims to develop a system for detecting and localizing bleeding regi
 The dataset used in this project is the `WCEBleedGen_dataset`, which contains two folders:
 
 - `bleeding`: This folder contains all the bleeding images and their corresponding annotations and bounding box files.
-- `non bleeding`: This folder contains all the non bleeding images.
+- `non-bleeding`: This folder contains all the non-bleeding images.
 
 ## Classification Task
 
@@ -39,20 +42,19 @@ After tuning the hyperparameters, the ResNet50 model is trained on the complete 
 
 The trained model is tested on an unseen dataset (`Test Dataset 2`). The images are classified as "Bleeding" or "Non-Bleeding", and the predictions are stored in separate folders (`Predicted_Bleeding_Images` and `Predicted_Non_Bleeding_Images`).
 
-## Results of Classification:
+## Results of Classification
+### Evaluation Metrics
+![Alt text](finalresults/EvaluationMetrics_Classfcn.jpg "Evaluation Metrics")
 
+### Predicted_Classification Bleeding
+![Alt text](finalresults/Classfcn_Bleeding.jpg "Predicted_Classification Bleeding")
+
+### Predicted_Classification Non-Bleeding
+![Alt text](finalresults/Classfcn_NonBleeding.jpg "Predicted_Classification Non-Bleeding")
 
 ## Detection Task
 
 The detection task involves training a model to localize and detect bleeding regions in WCE images.
-## Dataset
-
-The dataset used in this project is the `WCEBleedGen_dataset`, which contains two folders:
-
-- `bleeding`: This folder contains all the bleeding images and their corresponding `.txt` files.
-- `val`: This folder contains all the validation images and their corresponding `.txt` files.
-
-The dataset is defined in the `data.yaml` file, which specifies the paths to the training and validation datasets, as well as the class names.
 
 ### Model Training
 
@@ -66,9 +68,18 @@ After training, the model is validated using the `yolo task=detect mode=val` com
 
 The trained model is used to predict and localize bleeding regions in the previously classified "Bleeding" images from the classification task. The predictions are saved as images and text files in the `runs/detect/predict5` directory.
 
-The notebook also includes code snippets for displaying sample predicted images.
-
 ## Results of Detection:
+### Results
+![Alt text](finalresults/Results.jpg)
+
+#### Confusion_Matrix
+![Alt text](finalresults/Confusion_Matrix.jpg)
+
+#### Bleed_actual_Val_Detection
+![Alt text](finalresults/Bleed_actual_Val_Detection.jpg)
+
+#### Bleed_pred_Val_Detection
+![Alt text](finalresults/Bleed_pred_Val_Detection.jpg)
 
 ## Usage
 
@@ -87,7 +98,7 @@ This project was developed as part of the Machine Learning course at RV Universi
 
 We would like to acknowledge the following resources:
 
-- [YOLOv8 Documentation](https://docs.ultralytics.com/modes/predict/#inference-arguments) Yolov8 Documentation
+- [YOLOv8 Documentation](https://docs.ultralytics.com/modes/predict/#inference-arguments)
 - [YOLOv8 Training Notebook](https://github.com/Shivam-027/Auto-WCEBleedGen-Challenge/blob/main/MODEL/Training_YOLOv8.ipynb) Yolov8 code snippets
 - [Training Dataset](https://zenodo.org/records/10156571)
 - [Testing Dataset](https://zenodo.org/records/10124589)
