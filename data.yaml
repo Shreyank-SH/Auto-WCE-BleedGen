@@ -1,0 +1,5 @@
+train: C:/Users/Shreyank_SH/OneDrive/Desktop/RVU/sem4/IML/SEM_LONG/WCEBleedGen_dataset/bleeding/Bleedwithbound #Bleedwithboud is a folder containing all the bleeding images and its corresponding .txt files
+val: C:/Users/Shreyank_SH/OneDrive/Desktop/RVU/sem4/IML/SEM_LONG/WCEBleedGen_dataset/bleeding/val #val is a folder containing all the validation images and its corresponding .txt files
+
+names:
+  0: bleeding region
