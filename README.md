@@ -17,7 +17,7 @@ This project aims to develop a system for detecting and localizing bleeding regi
   - [Model Prediction](#model-prediction)
   - [Results of Detection](#results-of-detection)
 
-## (Note: Make changes to paths wherever necessary)
+### (Note: Make changes to paths wherever necessary, Only the necessary folders used or implemented in the code are uploaded to Github, these include output folders, folder used in data.yaml file, etc)
 
 ## Dataset
 
