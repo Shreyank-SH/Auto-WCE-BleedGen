@@ -99,6 +99,7 @@ This project was developed as part of the Machine Learning course at RV Universi
 We would like to acknowledge the following resources:
 
 - [YOLOv8 Documentation](https://docs.ultralytics.com/modes/predict/#inference-arguments)
+- [Resnet50 Documentation](https://pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html)
 - [YOLOv8 Training Notebook](https://github.com/Shivam-027/Auto-WCEBleedGen-Challenge/blob/main/MODEL/Training_YOLOv8.ipynb) Yolov8 code snippets
 - [Training Dataset](https://zenodo.org/records/10156571)
 - [Testing Dataset](https://zenodo.org/records/10124589)
