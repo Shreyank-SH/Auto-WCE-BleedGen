@@ -1,4 +1,4 @@
-# Classifcation of Bleeding and Non-Bleeding frames and further Detection of the Bleeding Region
+# Classifcation of Non-Bleeding and Bleeding frames and further Detection of the Bleeding Region
 
 This project aims to develop a system for detecting and localizing bleeding regions in wireless capsule endoscopy (WCE) images. The system consists of two main tasks: classification and detection.
 
